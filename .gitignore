@@ -1,0 +1,56 @@
+# -------------------------
+# Python cache & artifacts
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# -------------------------
+# Jupyter Notebook artifacts
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+env/
+venv/
+.venv/
+
+# -------------------------
+# Environment config
+# -------------------------
+.env
+*.env
+
+# -------------------------
+# OS-specific
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs & outputs
+# -------------------------
+*.log
+*.zip
+
+# -------------------------
+# ChromaDB persistent vector store
+# -------------------------
+data/chroma_db/
+*.sqlite3
+*.bin
+
+# -------------------------
+# Kaggle / Colab specific (optional)
+# -------------------------
+/kaggle/
+/content/
+
+# -------------------------
+# VSCode settings (optional)
+# -------------------------
+.vscode/
